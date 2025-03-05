@@ -1,0 +1,5 @@
+Could you please provide us with the diagnostics output from your primary instance by running the below command:
+
+```
+ghe-diagnostics -t 2325134
+``` 
