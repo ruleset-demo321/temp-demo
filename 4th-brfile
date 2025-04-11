@@ -1,0 +1,9 @@
+To help us track this issue down, please share a support bundle from the GitHub Enterprise appliance. The quickest way to do so is to [connect via SSH](https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/) and run this command:
+
+    ghe-support-bundle -t TICKET_ID
+
+If the appliance doesn't have direct Internet access, you can download a support bundle to your workstation via SSH:
+
+    ssh -p122 admin@[hostname] -- ghe-support-bundle -o > support-bundle.tgz
+
+Please then upload it to https://enterprise.github.com/support/bundles/new?ticket=TICKET_ID. There aren't any file size limits there, but you will need to be logged into your https://enterprise.github.com/ account in order to access the upload form. 
