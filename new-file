@@ -3,3 +3,5 @@ Could you please provide us with the diagnostics output from your primary instan
 ```
 ghe-diagnostics -t 2325134
 ``` 
+
+demo metaregex
